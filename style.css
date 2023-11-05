@@ -69,6 +69,12 @@
     background-color: rgba(167, 121, 202, 0.367);
     height: 100px;
 }
+.debug .col-4
+{
+    background-color: rgba(134, 7, 7, 0.742);
+    height: 300px;
+    border: 1px dashed black;
+}
 /* #endregion debug */
 
 /* #region header */
