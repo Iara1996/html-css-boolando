@@ -16,6 +16,11 @@
 
 }
 
+a
+{
+    text-decoration: none;
+}
+
 .container
 {
     width: 70%;
@@ -82,7 +87,21 @@
 {
     background-color: var(--bool-primary);
     color: var(--bool-white);
+    padding: 1rem 0;
 }
+
+ul .left_menu, .right_menu
+{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+.logo
+{
+    flex-grow: 2;
+}
+
 /* #endregion header */
 
 /* #region main */
