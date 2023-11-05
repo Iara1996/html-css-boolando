@@ -36,13 +36,47 @@
     padding: 1rem;
 }
 
+.d_flex
+{
+    display: flex;
+}
+
+.justify_content_between
+{
+    justify-content: space-between;
+}
+
 
 /* #endregion common */
 
 /* #region utility */
 /* #endregion utility */
 
+/* #region debug */
+.debug header
+{
+    height: 80px;
+}
+
+.debug main
+{
+    background-color: rgba(0, 255, 255, 0.367);
+    height: 600px;
+}
+
+.debug footer
+{
+    background-color: rgba(167, 121, 202, 0.367);
+    height: 100px;
+}
+/* #endregion debug */
+
 /* #region header */
+#site_header
+{
+    background-color: var(--bool-primary);
+    color: var(--bool-white);
+}
 /* #endregion header */
 
 /* #region main */
