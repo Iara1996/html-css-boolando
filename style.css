@@ -41,6 +41,11 @@ a
     padding: 1rem;
 }
 
+
+
+/* #endregion common */
+
+/* #region utility */
 .d_flex
 {
     display: flex;
@@ -51,10 +56,20 @@ a
     justify-content: space-between;
 }
 
+.justify_content_end
+{
+    justify-content: flex-end;
+}
 
-/* #endregion common */
+.text_end
+{
+    text-align: end;
+}
 
-/* #region utility */
+.text_center
+{
+    text-align: center;
+}
 /* #endregion utility */
 
 /* #region debug */
@@ -90,12 +105,18 @@ a
     padding: 1rem 0;
 }
 
-ul .left_menu, .right_menu
+ul.left_menu, .right_menu
 {
     list-style: none;
     display: flex;
     gap: 0.5rem;
     flex-grow: 1;
+    align-self: center;
+
+    & a
+    {
+        color: var(--bool-white);
+    }
 }
 .logo
 {
