@@ -65,6 +65,10 @@ img
 {
     justify-content: flex-end;
 }
+.align_items_center
+{
+    align-items: center;
+}
 
 .text_end
 {
@@ -156,6 +160,20 @@ ul.left_menu, .right_menu
     position: relative;
 }
 
+.card .images .like
+{
+    position: absolute;
+    top: 0.75rem;
+    right: 0;
+    background-color: var(--bool-white);
+    padding: 0.5em;
+}
+
+.like:hover
+{
+    color: var(--bool-danger);
+}
+
 .card .images img
 {
     display: block;
@@ -235,6 +253,17 @@ ul.left_menu, .right_menu
 /* #endregion main */
 
 /* #region footer */
+#site_footer
+{
+    background-color: var(--bool-dark);
+    color: var(--bool-white);
+    padding: 2rem 0;
+}
+
+.social > i
+{
+    padding: 0.5rem 0;
+}
 /* #endregion footer */
 
 
