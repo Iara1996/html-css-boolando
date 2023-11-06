@@ -41,6 +41,11 @@ a
     padding: 1rem;
 }
 
+img
+{
+    max-width: 100%;
+}
+
 
 
 /* #endregion common */
@@ -132,6 +137,101 @@ ul.left_menu, .right_menu
 /* #endregion header */
 
 /* #region main */
+
+.card
+{
+    box-shadow: 0 0 15px gray;
+    border-radius: 0.5rem;
+}
+
+.card img
+{
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+
+}
+
+.card .images
+{
+    position: relative;
+}
+
+.card .images img
+{
+    display: block;
+}
+
+.card > .images > .bottom
+{
+    display: none;
+}
+
+.card:hover .top
+{
+    display: none;
+}
+
+.card:hover .bottom
+{
+    display: block;
+}
+
+.card_body
+{
+    padding: 0.5rem;
+}
+
+.card_body > strong
+{
+    color: gray;
+}
+
+.card_body > h4
+{
+    text-transform: uppercase;
+}
+
+.card .badges
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    display: flex;
+    gap: 0.25rem;
+    font-size: 12px;
+    color: var(--bool-white);
+}
+
+.badges .discount
+{
+    background-color: var(--bool-danger);
+}
+
+.badges .category
+{
+    background-color: var(--bool-success);
+}
+
+.badges .discount, .badges .category
+{
+    padding: 2px 0.5rem;
+}
+
+.pricing
+{
+    display: flex;
+    gap: 2px;
+}
+
+.pricing .discounted
+{
+    color: var(--bool-danger);
+}
+.pricing .full
+{
+    text-decoration: line-through;
+}
+
 /* #endregion main */
 
 /* #region footer */
