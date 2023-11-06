@@ -47,7 +47,6 @@ img
 }
 
 
-
 /* #endregion common */
 
 /* #region utility */
@@ -263,12 +262,24 @@ ul.left_menu, .right_menu
 .social > i
 {
     padding: 0.5rem 0;
+    margin-top: 0.5rem;
 }
+
+ul.left
+{
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 12px;
+    margin-top: 0.5rem;
+
+    & a
+    {
+        color: var(--bool-white);
+    }
+}
+
+
 /* #endregion footer */
-
-
-
-
-
 
 
